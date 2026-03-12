@@ -1,31 +1,10 @@
+/* #region Every CSS */
+
 body{
     background-color: #f7cce3a8;
     margin: 0;
 }
-.login img {
-    width: 40px;
-    padding: 8px;
-    border-radius: 50%;
-}
 
-.login img:hover {
-    opacity: 0.8;
-    transform: scale(1.05);
-    transition: 0.2s;
-    width: 40px;
-    cursor: pointer;
-}
-
-nav {
-    margin-left: auto;
-}
-header div {
-    margin-left: 20px;
-}
-header a {
-    text-decoration: none;
-    color: #6a5343
-}
 header {
     height: 100px;
     display: flex;
@@ -44,6 +23,55 @@ header ul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #6a5343;
 }
+
+.login img {
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.roupas img {
+    width: 300px;
+}
+.login img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: 0.2s;
+    width: 40px;
+    cursor: pointer;
+}
+footer img {
+    width: 2%;
+}
+
+nav {
+    margin-left: auto;
+}
+
+header div {
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #6a5343
+}
+
+footer {
+    background-color: #f7e8c5;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 0;
+
+}
+
+footer p{
+    color: #6a5343;
+}
+/* #endregion */
+
+/* #region Inicio CSS*/
+
 .equipe {
     display: flex;
     justify-content: center;
@@ -72,43 +100,154 @@ header ul{
     margin-right: 20px;
 }
 
-#nome {
-    text-align: center;
-    color: #ff9aba;
-}
-
-#central {
-    display: flex;
-}
-
-#lado {
-    background-color: aliceblue;
-    width: 10%;
-    height: 100%;
-}
-
-#max {
-    background-color: aliceblue;
-    width: 60%;
-    height: 80%;
-}
-
-#max img {
-    width: 30%;
-}
-
 #equipe {
     text-align: center;
     color: #6a5343;
 }
 
-footer {
-    background-color: #f7e8c5;
-    height: 100px;
+/* #endregion */
+
+/* #region Página login */
+
+#meio{
+    margin-top: 14%;
+    border: 1px solid #6a5343;
+    position: relative;
+    margin-left: 50%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    border: 1px solid #6a5343;
     text-align: center;
-    align-content: center;
+    font-size: large;
+}
+    
+#campo{
+    width: 70%;
+}  
+
+#boton{
+    width: 70%;
+    background-color: #f7e8c5;
 }
 
-footer p{
-    color: #6a5343;
+main{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+/* #endregion */
+
+/* #region Catálogo CSS*/
+
+#central {
+    display: flex;
+    margin: 20px;
+}
+
+#ladoright {
+    margin: solid #6a5343 10px;
+    background-color: #faf2df;
+    width: 10%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+#ladoleft {
+    border: solid #6a5343 12px;
+    background-color: #faf2df;
+    width: 10%;
+    height: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#ladoleft video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#max {
+    margin: auto;
+    background-color: #faf2df;
+    width: 60%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.item{
+    width: 30%;
+    text-align: center;
+    margin: 5px;
+}
+
+.item img{
+    width: 100%;
+    border: 1px solid #6a5343;
+}
+
+.item img:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+    transition: 0.2s;
+    cursor: pointer;
+    border-color: #ff74bea8;
+}
+
+.item p{
+    margin-top: 3px;
+    color: #6a5343;
+    font-size: 14px;
+}
+
+/* #endregion */
+
+/* #region Perfil CSS*/
+.contato{
+display: flex;
+align-items: center;
+gap: 20px;
+
+}
+
+.contato img{
+    width: 50px;
+}
+
+.contato p{
+    max-width: 400px;
+}
+.componentes{
+     display: flex;
+     justify-content: center;
+
+}
+.integrantes{
+    border: double 5px black;
+    border-radius: 50%;
+}
+.imagens_integrantes{
+display:inline-block ; 
+margin: 10px;
+
+}
+.nome_integrante {
+text-align: center;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: hotpink;
+
+}
+.equipe{
+    text-align: center;
+}
+/* #endregion */
